@@ -1297,3 +1297,6 @@ C:\Pravin_ProjectECB\training\2021\DevOps\practice>git stash
 Saved working directory and index state WIP on master: a6184fe dev4 is working and its code
 
 C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+
+git config user.email 'pravin.shende@gmail.com'
+git config user.name 'Pravin Shende'
