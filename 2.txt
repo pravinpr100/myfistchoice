@@ -1,7 +1,10 @@
 "this is file 2 in ot the folder" 
+<<<<<<< HEAD
 
 I am a boz
 
 zou are a girl
 
 this is an additoinal test do not 4th step
+=======
+>>>>>>> parent of 5620da9 (new changes 3rd)
