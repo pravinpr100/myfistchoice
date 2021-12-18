@@ -1,0 +1,1299 @@
+Microsoft Windows [Version 10.0.19042.1052]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\windows\System32>git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\windows\System32>cd C:\Pravin_ProjectECB\training\2021\DevOps
+
+C:\Pravin_ProjectECB\training\2021\DevOps>git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Pravin_ProjectECB\training\2021\DevOps>git init
+Initialized empty Git repository in C:/Pravin_ProjectECB/training/2021/DevOps/.git/
+
+C:\Pravin_ProjectECB\training\2021\DevOps>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.txt
+        Module_01_-Devops_Foundation.pdf
+        PowerPoint Presentation - Module_01_-Devops_Foundation.pdf
+        pravinfra.pem
+        pravinfra.ppk
+        pravinfra.zip
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Pravin_ProjectECB\training\2021\DevOps>git add 1.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps>git status#
+
+C:\Pravin_ProjectECB\training\2021\DevOps>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Module_01_-Devops_Foundation.pdf
+        PowerPoint Presentation - Module_01_-Devops_Foundation.pdf
+        pravinfra.pem
+        pravinfra.ppk
+        pravinfra.zip
+
+
+C:\Pravin_ProjectECB\training\2021\DevOps>git commit 1.txt -m 'my first comit '
+error: pathspec 'first' did not match any file(s) known to git
+error: pathspec 'comit' did not match any file(s) known to git
+error: pathspec ''' did not match any file(s) known to git
+
+C:\Pravin_ProjectECB\training\2021\DevOps>cd C:\Pravin_ProjectECB\training\2021\DevOps\practice
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git init
+Initialized empty Git repository in C:/Pravin_ProjectECB/training/2021/DevOps/practice/.git/
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add .
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1.txt
+
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git commit 1.txt -m "my first commit"
+[master (root-commit) 4146f63] my first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log
+commit 4146f631bdf20607a349f94babd7b8c9460fef20 (HEAD -> master)
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 15:46:20 2021 +0100
+
+s isjkfdkfdkj
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#       modified:   1.txt
+#
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       C:/Pravin_ProjectECB/training/2021/DevOps/practice/.git/COMMIT_EDITMSG[+] [unix] (15:52 18/12/2021)             1,13 All[master 6df8d54] s isjkfdkfdkj
+ 1 file changed, 1 insertion(+)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git commit 1.txt -m "this is 2nd "
+On branch master
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git remote add origin https://github.com/pravinpr100/myfistchoice.git
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 430 bytes | 430.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/pravinpr100/myfistchoice.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log --online
+fatal: unrecognized argument: --online
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log --oneline
+6df8d54 (HEAD -> master, origin/master) s isjkfdkfdkj
+4146f63 my first commit
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>echo "this is file 2 in ot the folder" > 2.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2CC4-D787
+
+ Directory of C:\Pravin_ProjectECB\training\2021\DevOps\practice
+
+18/12/2021  15:59    <DIR>          .
+18/12/2021  15:59    <DIR>          ..
+18/12/2021  15:48                20 1.txt
+18/12/2021  15:59                36 2.txt
+               2 File(s)             56 bytes
+               2 Dir(s)  132,292,571,136 bytes free
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add .
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git commit -m "added 2nd file"
+[master 133f7bc] added 2nd file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 2.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pravinpr100/myfistchoice.git
+   6df8d54..133f7bc  master -> master
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>vim 2.txt
+'vim' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add .
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   2.txt
+
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git commit -m "new changes 3rd"
+[master 5620da9] new changes 3rd
+ 1 file changed, 4 insertions(+)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pravinpr100/myfistchoice.git
+   133f7bc..5620da9  master -> master
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log
+commit 5620da9efcaf66793f9c412c8b6f6a7b5c52896f (HEAD -> master, origin/master)
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:03:01 2021 +0100
+
+    new changes 3rd
+
+commit 133f7bccae5f5095d4d011a0401fbb7896d10851
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:00:48 2021 +0100
+
+    added 2nd file
+
+commit 6df8d54cfeedc50defd2e3f03a841b685baf37ff
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 15:52:54 2021 +0100
+
+    s isjkfdkfdkj
+
+commit 4146f631bdf20607a349f94babd7b8c9460fef20
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 15:46:20 2021 +0100
+
+    my first commit
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log --oneline
+5620da9 (HEAD -> master, origin/master) new changes 3rd
+133f7bc added 2nd file
+6df8d54 s isjkfdkfdkj
+4146f63 my first commit
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add .
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git commit -m "new change 4rh added"
+[master f19ca5b] new change 4rh added
+ 1 file changed, 2 insertions(+)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log --oneline
+f19ca5b (HEAD -> master) new change 4rh added
+5620da9 (origin/master) new changes 3rd
+133f7bc added 2nd file
+6df8d54 s isjkfdkfdkj
+4146f63 my first commit
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git revert 5620da9
+Auto-merging 2.txt
+CONFLICT (content): Merge conflict in 2.txt
+error: could not revert 5620da9... new changes 3rd
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 370 bytes | 185.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pravinpr100/myfistchoice.git
+   5620da9..f19ca5b  master -> master
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log --online
+fatal: unrecognized argument: --online
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log --oneline
+f19ca5b (HEAD -> master, origin/master) new change 4rh added
+5620da9 new changes 3rd
+133f7bc added 2nd file
+6df8d54 s isjkfdkfdkj
+4146f63 my first commit
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git restore 5620da9
+Revert "new changes ihjdsfdkldf3rd"
+
+This reverts commit 5620da9efcaf66793f9c412c8b6f6a7b5c52896f.
+
+# Conflicts:
+#       2.txt
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# You are currently reverting commit 5620da9.
+#
+# Changes to be committed:
+#       modified:   2.txt
+#
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       C:/Pravin_ProjectECB/training/2021/DevOps/practice/.git/COMMIT_EDITMSG[+] [unix] (16:17 18/12/2021)             1,31 All[master 42c635d] Revert "new changes ihjdsfdkldf3rd"
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 470 bytes | 470.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pravinpr100/myfistchoice.git
+   f19ca5b..42c635d  master -> master
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git branch dev
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git branch
+  dev
+* master
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git checkout dev
+Switched to branch 'dev'
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git branch
+* dev
+  master
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>echo "this is first file of dev branch" > dev1.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2CC4-D787
+
+ Directory of C:\Pravin_ProjectECB\training\2021\DevOps\practice
+
+18/12/2021  16:21    <DIR>          .
+18/12/2021  16:21    <DIR>          ..
+18/12/2021  15:48                20 1.txt
+18/12/2021  16:08               182 2.txt
+18/12/2021  16:21                37 dev1.txt
+               3 File(s)            239 bytes
+               2 Dir(s)  132,296,749,056 bytes free
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dev1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push -u origin dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/pravinpr100/myfistchoice/pull/new/dev
+remote:
+To https://github.com/pravinpr100/myfistchoice.git
+ * [new branch]      dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add .
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git commit -m "dev branch commit"
+[dev ffb25c8] dev branch commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dev1.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 344 bytes | 344.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pravinpr100/myfistchoice.git
+   42c635d..ffb25c8  dev -> dev
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2CC4-D787
+
+ Directory of C:\Pravin_ProjectECB\training\2021\DevOps\practice
+
+18/12/2021  16:28    <DIR>          .
+18/12/2021  16:28    <DIR>          ..
+18/12/2021  15:48                20 1.txt
+18/12/2021  16:08               182 2.txt
+               2 File(s)            202 bytes
+               2 Dir(s)  132,291,493,888 bytes free
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 623 bytes | 10.00 KiB/s, done.
+From https://github.com/pravinpr100/myfistchoice
+   42c635d..c9d057a  master     -> origin/master
+Updating 42c635d..c9d057a
+Fast-forward
+ dev1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dev1.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2CC4-D787
+
+ Directory of C:\Pravin_ProjectECB\training\2021\DevOps\practice
+
+18/12/2021  16:30    <DIR>          .
+18/12/2021  16:30    <DIR>          ..
+18/12/2021  15:48                20 1.txt
+18/12/2021  16:08               182 2.txt
+18/12/2021  16:30                37 dev1.txt
+               3 File(s)            239 bytes
+               2 Dir(s)  132,289,789,952 bytes free
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git branch dev2
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git checkout dev2
+Switched to branch 'dev2'
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>echo "this is a 5tht dev2 file" > dev2.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev2
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dev2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push -u branch dev2
+fatal: 'branch' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push -u origin dev2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'dev2' on GitHub by visiting:
+remote:      https://github.com/pravinpr100/myfistchoice/pull/new/dev2
+remote:
+To https://github.com/pravinpr100/myfistchoice.git
+ * [new branch]      dev2 -> dev2
+Branch 'dev2' set up to track remote branch 'dev2' from 'origin'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add .
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git commit -m "adding dev2 file"
+[dev2 c1ede80] adding dev2 file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dev2.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 310 bytes | 155.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pravinpr100/myfistchoice.git
+   c9d057a..c1ede80  dev2 -> dev2
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice> git status
+On branch dev2
+Your branch is up to date with 'origin/dev2'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git merge dev2
+Updating c9d057a..c1ede80
+Fast-forward
+ dev2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dev2.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pravinpr100/myfistchoice.git
+   c9d057a..c1ede80  master -> master
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git branch
+  dev
+  dev2
+* master
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git branch dev3
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push -u origin dev3
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'dev3' on GitHub by visiting:
+remote:      https://github.com/pravinpr100/myfistchoice/pull/new/dev3
+remote:
+To https://github.com/pravinpr100/myfistchoice.git
+ * [new branch]      dev3 -> dev3
+Branch 'dev3' set up to track remote branch 'dev3' from 'origin'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git checkout dev3
+Switched to branch 'dev3'
+Your branch is up to date with 'origin/dev3'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev3
+Your branch is up to date with 'origin/dev3'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>echo "this is 3rd file from dev3 dev3 is good" > dev3.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2CC4-D787
+
+ Directory of C:\Pravin_ProjectECB\training\2021\DevOps\practice
+
+18/12/2021  16:46    <DIR>          .
+18/12/2021  16:46    <DIR>          ..
+18/12/2021  15:48                20 1.txt
+18/12/2021  16:08               182 2.txt
+18/12/2021  16:30                37 dev1.txt
+18/12/2021  16:38                29 dev2.txt
+18/12/2021  16:46                44 dev3.txt
+               5 File(s)            312 bytes
+               2 Dir(s)  132,285,030,400 bytes free
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev3
+Your branch is up to date with 'origin/dev3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dev3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add .
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git commit -m "this sis from 3rd dev dev3"
+[dev3 72d555c] this sis from 3rd dev dev3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dev3.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 328 bytes | 328.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pravinpr100/myfistchoice.git
+   c1ede80..72d555c  dev3 -> dev3
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev3
+Your branch is up to date with 'origin/dev3'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git merge dev3
+Updating c1ede80..72d555c
+Fast-forward
+ dev3.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dev3.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pravinpr100/myfistchoice.git
+   c1ede80..72d555c  master -> master
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git history
+git: 'history' is not a git command. See 'git --help'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>history
+'history' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git --history
+unknown option: --history
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git -history
+unknown option: -history
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git history
+git: 'history' is not a git command. See 'git --help'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git branch dev4
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git checkout dev4
+Switched to branch 'dev4'
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>#
+'#' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev4
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>echo "my name is lakhan dev4 file " > dev4file1.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push -u origin dev4
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'dev4' on GitHub by visiting:
+remote:      https://github.com/pravinpr100/myfistchoice/pull/new/dev4
+remote:
+To https://github.com/pravinpr100/myfistchoice.git
+ * [new branch]      dev4 -> dev4
+Branch 'dev4' set up to track remote branch 'dev4' from 'origin'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev4
+Your branch is up to date with 'origin/dev4'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dev4file1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add .
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git commit -m "dev4 is working and its code"
+[dev4 a6184fe] dev4 is working and its code
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dev4file1.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev4
+Your branch is ahead of 'origin/dev4' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 333 bytes | 333.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pravinpr100/myfistchoice.git
+   72d555c..a6184fe  dev4 -> dev4
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log
+commit a6184fe8762364ce5ba72a065b9dfb67c40c51e3 (HEAD -> dev4, origin/dev4)
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:54:23 2021 +0100
+
+    dev4 is working and its code
+
+commit 72d555c48327296582655c6b1dd1e20b9589a4ff (origin/master, origin/dev3, master, dev3)
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:46:44 2021 +0100
+
+    this sis from 3rd dev dev3
+
+commit c1ede80693086c14560a66037c48041cada9ab88 (origin/dev2, dev2)
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:37:02 2021 +0100
+
+    adding dev2 file
+
+commit c9d057a62c886367b7bca9b324bf217a39fdf9df
+Merge: 42c635d ffb25c8
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:29:17 2021 +0100
+
+    Merge pull request #1 from pravinpr100/dev
+
+    dev branch commit
+
+commit ffb25c8dc9e036177931311d76ff065060b16c97 (origin/dev, dev)
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:24:03 2021 +0100
+
+    dev branch commit
+
+commit 42c635dbdbf8f799eddacc6ab95455b2d028a726
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:17:52 2021 +0100
+
+    Revert "new changes ihjdsfdkldf3rd"
+
+    This reverts commit 5620da9efcaf66793f9c412c8b6f6a7b5c52896f.
+
+commit f19ca5b6fc8b6c4c7088edc8279100ac18234285
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:05:42 2021 +0100
+
+    new change 4rh added
+
+commit 5620da9efcaf66793f9c412c8b6f6a7b5c52896f
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:03:01 2021 +0100
+
+    new changes 3rd
+
+commit 133f7bccae5f5095d4d011a0401fbb7896d10851
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:00:48 2021 +0100
+
+    added 2nd file
+
+commit 6df8d54cfeedc50defd2e3f03a841b685baf37ff
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 15:52:54 2021 +0100
+
+    s isjkfdkfdkj
+
+commit 4146f631bdf20607a349f94babd7b8c9460fef20
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 15:46:20 2021 +0100
+
+    my first commit
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log --stat#
+fatal: unrecognized argument: --stat#
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log --stat
+commit a6184fe8762364ce5ba72a065b9dfb67c40c51e3 (HEAD -> dev4, origin/dev4)
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:54:23 2021 +0100
+
+    dev4 is working and its code
+
+ dev4file1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 72d555c48327296582655c6b1dd1e20b9589a4ff (origin/master, origin/dev3, master, dev3)
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:46:44 2021 +0100
+
+    this sis from 3rd dev dev3
+
+ dev3.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit c1ede80693086c14560a66037c48041cada9ab88 (origin/dev2, dev2)
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:37:02 2021 +0100
+
+    adding dev2 file
+
+ dev2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit c9d057a62c886367b7bca9b324bf217a39fdf9df
+Merge: 42c635d ffb25c8
+Author: pravinpr100 <96014936+pravinpr100@users.noreply.github.com>
+Date:   Sat Dec 18 16:29:17 2021 +0100
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log --graph --prety=oneline
+fatal: unrecognized argument: --prety=oneline
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git log --graph --pretty=oneline
+* a6184fe8762364ce5ba72a065b9dfb67c40c51e3 (HEAD -> dev4, origin/dev4) dev4 is working and its code
+* 72d555c48327296582655c6b1dd1e20b9589a4ff (origin/master, origin/dev3, master, dev3) this sis from 3rd dev dev3
+* c1ede80693086c14560a66037c48041cada9ab88 (origin/dev2, dev2) adding dev2 file
+*   c9d057a62c886367b7bca9b324bf217a39fdf9df Merge pull request #1 from pravinpr100/dev
+|\
+| * ffb25c8dc9e036177931311d76ff065060b16c97 (origin/dev, dev) dev branch commit
+|/
+* 42c635dbdbf8f799eddacc6ab95455b2d028a726 Revert "new changes ihjdsfdkldf3rd"
+* f19ca5b6fc8b6c4c7088edc8279100ac18234285 new change 4rh added
+* 5620da9efcaf66793f9c412c8b6f6a7b5c52896f new changes 3rd
+* 133f7bccae5f5095d4d011a0401fbb7896d10851 added 2nd file
+* 6df8d54cfeedc50defd2e3f03a841b685baf37ff s isjkfdkfdkj
+* 4146f631bdf20607a349f94babd7b8c9460fef20 my first commit
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git reflog
+a6184fe (HEAD -> dev4, origin/dev4) HEAD@{0}: commit: dev4 is working and its code
+72d555c (origin/master, origin/dev3, master, dev3) HEAD@{1}: checkout: moving from master to dev4
+72d555c (origin/master, origin/dev3, master, dev3) HEAD@{2}: merge dev3: Fast-forward
+c1ede80 (origin/dev2, dev2) HEAD@{3}: checkout: moving from dev3 to master
+72d555c (origin/master, origin/dev3, master, dev3) HEAD@{4}: commit: this sis from 3rd dev dev3
+c1ede80 (origin/dev2, dev2) HEAD@{5}: checkout: moving from master to dev3
+c1ede80 (origin/dev2, dev2) HEAD@{6}: merge dev2: Fast-forward
+c9d057a HEAD@{7}: checkout: moving from dev2 to master
+c1ede80 (origin/dev2, dev2) HEAD@{8}: commit: adding dev2 file
+c9d057a HEAD@{9}: checkout: moving from master to dev2
+c9d057a HEAD@{10}: pull: Fast-forward
+42c635d HEAD@{11}: checkout: moving from dev to master
+ffb25c8 (origin/dev, dev) HEAD@{12}: commit: dev branch commit
+42c635d HEAD@{13}: checkout: moving from master to dev
+42c635d HEAD@{14}: commit: Revert "new changes ihjdsfdkldf3rd"
+f19ca5b HEAD@{15}: commit: new change 4rh added
+5620da9 HEAD@{16}: commit: new changes 3rd
+133f7bc HEAD@{17}: commit: added 2nd file
+6df8d54 HEAD@{18}: commit: s isjkfdkfdkj
+4146f63 HEAD@{19}: Branch: renamed refs/heads/master to refs/heads/master
+4146f63 HEAD@{21}: commit (initial): my first commit
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>history
+'history' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch dev4
+Your branch is up to date with 'origin/dev4'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Everything up-to-date
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Everything up-to-date
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git merge dev4
+Updating 72d555c..a6184fe
+Fast-forward
+ dev4file1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dev4file1.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pravinpr100/myfistchoice.git
+   72d555c..a6184fe  master -> master
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>echo "this is for conlict dev5" > dev5.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dev5.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add .
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Everything up-to-date
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   dev5.txt
+
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add .
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   dev5.txt
+
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Everything up-to-date
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push origin master
+Everything up-to-date
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   dev5.txt
+
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git restore --staged dev5.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dev5.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push
+Everything up-to-date
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push origin master
+Everything up-to-date
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git pull
+Already up to date.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dev5.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git add dev5.txt
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status#
+git: 'status#' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   dev5.txt
+
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git push origin/master
+fatal: 'origin/master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git stash pop
+No stash entries found.
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>git stash
+Saved working directory and index state WIP on master: a6184fe dev4 is working and its code
+
+C:\Pravin_ProjectECB\training\2021\DevOps\practice>
